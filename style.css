@@ -12,7 +12,6 @@
   --display: "Cinzel", "Times New Roman", serif;
   --serif: "EB Garamond", Georgia, serif;
   --sans: "Jost", "Helvetica Neue", Arial, sans-serif;
-  --script: "Mrs Saint Delafield", cursive;
 
   --header: 72px;
   --gutter: clamp(16px, 4vw, 40px);
@@ -67,14 +66,6 @@ h1, h2, h3 { margin: 0; font-weight: 400; }
   margin: 20px auto;
   background: var(--ink);
   opacity: 0.35;
-}
-
-.signature {
-  font-family: var(--script);
-  font-weight: 400;
-  line-height: 1;
-  color: var(--ink);
-  pointer-events: none;
 }
 
 /* ---------- Header ---------- */
@@ -351,13 +342,6 @@ body.menu-open .menu-toggle span:nth-child(3) { transform: translateY(-7px) rota
 }
 .hn:last-child { animation-delay: 0.16s; }
 
-.hero-sign {
-  display: block;
-  margin-top: 22px;
-  font-size: clamp(56px, 6vw, 96px);
-  animation: fade 1.4s 0.5s ease both;
-}
-
 .hero-photo {
   margin: 0;
   height: var(--photo-h);
@@ -403,19 +387,10 @@ body.menu-open .menu-toggle span:nth-child(3) { transform: translateY(-7px) rota
   .hero-kicker { margin-bottom: 6px; }
   .hn { font-size: min(14vw, 8dvh); }
   .hn-mid { font-size: min(6vw, 3.4dvh); margin: 2px 0; }
-  .hero-sign { display: none; }
-  .hero-foot { flex-direction: column; gap: 4px; padding: 14px var(--gutter); text-align: center; }
-  .hero-tag, .hero-places { font-size: 10px; letter-spacing: 0.16em; }
-}
-
-@media (max-height: 560px) and (min-width: 561px) {
+  @media (max-height: 560px) and (min-width: 561px) {
   .hero-stage { --photo-h: 70dvh; grid-template-columns: minmax(0, 1fr) auto; text-align: left; justify-items: stretch; }
   .hn { font-size: clamp(32px, 6vw, 72px); }
-  .hero-sign { display: none; }
-  .hero-foot { flex-direction: row; padding: 10px var(--gutter); }
-}
-
-/* ---------- Inner pages ---------- */
+  /* ---------- Inner pages ---------- */
 .page-head {
   text-align: center;
   padding: clamp(56px, 9vw, 104px) var(--gutter) clamp(44px, 6vw, 64px);

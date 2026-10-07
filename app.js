@@ -115,7 +115,6 @@
               <span class="hn hn-mid">${SITE.middle}</span>
               <span class="hn">${SITE.last}</span>
             </h1>
-            <span class="signature hero-sign" aria-hidden="true">${SITE.first}</span>
           </div>
           <figure class="hero-photo">
             <img src="${SITE.image}" alt="Portrait of ${esc(fullName)}">

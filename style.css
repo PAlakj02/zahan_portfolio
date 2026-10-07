@@ -378,10 +378,17 @@ body.menu-open .menu-toggle span:nth-child(3) { transform: translateY(-7px) rota
   .hero-kicker { margin-bottom: 6px; }
   .hn { font-size: min(14vw, 8dvh); }
   .hn-mid { font-size: min(6vw, 3.4dvh); margin: 2px 0; }
-  @media (max-height: 560px) and (min-width: 561px) {
+  .hero-foot { flex-direction: column; gap: 4px; padding: 14px var(--gutter); text-align: center; }
+  .hero-tag, .hero-places { font-size: 10px; letter-spacing: 0.16em; }
+}
+
+@media (max-height: 560px) and (min-width: 561px) {
   .hero-stage { --photo-h: 70dvh; grid-template-columns: minmax(0, 1fr) auto; text-align: left; justify-items: stretch; }
   .hn { font-size: clamp(32px, 6vw, 72px); }
-  /* ---------- Inner pages ---------- */
+  .hero-foot { flex-direction: row; padding: 10px var(--gutter); }
+}
+
+/* ---------- Inner pages ---------- */
 .page-head {
   text-align: center;
   padding: clamp(56px, 9vw, 104px) var(--gutter) clamp(44px, 6vw, 64px);

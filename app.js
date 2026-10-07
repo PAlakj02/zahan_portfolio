@@ -5,9 +5,6 @@
   const navList = document.getElementById("navList");
   const mainNav = document.getElementById("mainNav");
   const menuToggle = document.getElementById("menuToggle");
-  const monogram = document.getElementById("monogram");
-  const profile = document.getElementById("profile");
-  const scrim = document.getElementById("scrim");
 
   const fullName = `${SITE.first} ${SITE.middle} ${SITE.last}`;
   const esc = (s) =>
@@ -81,51 +78,15 @@
     document.body.classList.toggle("menu-open", open);
     menuToggle.setAttribute("aria-expanded", String(open));
     menuToggle.setAttribute("aria-label", open ? "Close menu" : "Open menu");
-    if (open) setProfile(false);
   }
   menuToggle.addEventListener("click", () => setMenu(!document.body.classList.contains("menu-open")));
-
-  /* ---------- Profile drawer (ZNS) ---------- */
-
-  function buildProfile() {
-    profile.innerHTML = `
-      <button class="profile-close" type="button" aria-label="Close profile">
-        <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 2l12 12M14 2L2 14" stroke="currentColor" stroke-width="1.3"/></svg>
-      </button>
-      <figure class="profile-photo"><img src="${SITE.image}" alt="Portrait of ${esc(fullName)}"></figure>
-      <p class="kicker">Hello, I am</p>
-      <h2 class="profile-name">${SITE.first}<br>${SITE.middle} ${SITE.last}</h2>
-      <p class="profile-tag">${SITE.tagline}</p>
-      <p class="profile-intro">${esc(SITE.intro)}</p>
-      <dl class="profile-details">
-        ${SITE.details.map(([k, v]) => `<div><dt>${k}</dt><dd>${esc(v)}</dd></div>`).join("")}
-        <div><dt>Email</dt><dd><a href="mailto:${SITE.email}">${SITE.email}</a></dd></div>
-      </dl>
-      <span class="signature" aria-hidden="true">${SITE.first}</span>`;
-    profile.querySelector(".profile-close").addEventListener("click", () => setProfile(false));
-  }
-
-  function setProfile(open) {
-    document.body.classList.toggle("profile-open", open);
-    profile.setAttribute("aria-hidden", String(!open));
-    monogram.setAttribute("aria-expanded", String(open));
-    scrim.hidden = !open;
-    if (open) {
-      setMenu(false);
-      closeDropdowns();
-      profile.scrollTop = 0;
-      profile.focus();
-    } else if (profile.contains(document.activeElement)) {
-      monogram.focus();
-    }
-  }
-
-  monogram.addEventListener("click", () => setProfile(!document.body.classList.contains("profile-open")));
-  scrim.addEventListener("click", () => setProfile(false));
+  document.getElementById("monogram").addEventListener("click", () => {
+    setMenu(false);
+    closeDropdowns();
+  });
 
   document.addEventListener("keydown", (e) => {
     if (e.key !== "Escape") return;
-    setProfile(false);
     closeDropdowns();
     setMenu(false);
   });
@@ -311,7 +272,6 @@
   }
 
   buildNav();
-  buildProfile();
   window.addEventListener("hashchange", render);
   render();
 })();

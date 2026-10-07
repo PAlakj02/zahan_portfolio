@@ -108,15 +108,18 @@
     return `
       <section class="hero">
         <div class="hero-stage">
-          <h1 class="sr-only">${esc(fullName)}</h1>
-          <div class="hero-name">
-            <span class="hn hn-first" aria-hidden="true">${SITE.first}</span>
-            <figure class="hero-photo">
-              <img src="${SITE.image}" alt="Portrait of ${esc(fullName)}">
-              <span class="signature hero-sign" aria-hidden="true">${SITE.first}</span>
-            </figure>
-            <span class="hn hn-last" aria-hidden="true">${SITE.last}</span>
+          <div class="hero-text">
+            <p class="kicker hero-kicker">Hello, I am</p>
+            <h1 class="hero-name">
+              <span class="hn">${SITE.first}</span>
+              <span class="hn hn-mid">${SITE.middle}</span>
+              <span class="hn">${SITE.last}</span>
+            </h1>
+            <span class="signature hero-sign" aria-hidden="true">${SITE.first}</span>
           </div>
+          <figure class="hero-photo">
+            <img src="${SITE.image}" alt="Portrait of ${esc(fullName)}">
+          </figure>
         </div>
         <div class="hero-foot">
           <p class="hero-tag">${SITE.tagline}</p>

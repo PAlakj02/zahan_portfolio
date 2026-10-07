@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Zahan Nikhil Sawhney</title>
+  <meta name="description" content="Zahan Nikhil Sawhney: student, editor, debater and researcher. New Delhi and Tonbridge School, Kent.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Jost:wght@400;500&family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <button class="monogram" id="monogram" aria-label="Open profile" aria-controls="profile" aria-expanded="false">ZNS</button>
+
+      <nav class="main-nav" id="mainNav" aria-label="Main">
+        <ul class="nav-list" id="navList"></ul>
+      </nav>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-controls="mainNav" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="scrim" id="scrim" hidden></div>
+  <aside class="profile" id="profile" aria-label="Profile" aria-hidden="true" tabindex="-1"></aside>
+
+  <main id="app" tabindex="-1"></main>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

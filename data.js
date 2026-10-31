@@ -77,12 +77,12 @@ const GROUPS = {
           "I co-founded Tonbridge School's Model United Nations society, served as Deputy Secretary-General of TOMUN, the school's first-ever inter-school MUN conference, and am now Deputy President of the society.",
         body: [
           "MUN has been part of my life since Grade 6 at Step-by-Step School in Noida, where I first learnt to research a country's position, defend it under pressure and find common ground with people who disagreed with me. When I arrived at Tonbridge, I wanted to build that same space for others.",
-          "Our inaugural conference brought together more than 110 delegates from over 10 schools. We set four committees on Iran, Arctic militarisation and AI weapons, and I wrote the crisis briefs. I chaired both the Disarmament Committee and the General Assembly. Chairing taught me a different kind of discipline from debating: keeping the room fair, keeping it moving and making sure every delegate had a real chance to be heard.",
+          "Our inaugural conference brought together more than 110 delegates from 10 schools. We set four committees on Iran, Arctic militarisation and AI weapons, and I wrote the crisis briefs. I chaired both the Disarmament Committee and the General Assembly. Chairing taught me a different kind of discipline from debating: keeping the room fair, keeping it moving and making sure every delegate had a real chance to be heard.",
           "As Deputy President, I am responsible for training every new member of the society, usually around 30 a year. As one of the most experienced delegates in the society, I try to give them the same grounding in research and debate that I was lucky enough to get.",
         ],
         highlights: [
           "Co-founded Tonbridge School's first MUN society",
-          "Deputy Secretary-General of TOMUN: 110+ delegates from 10+ schools",
+          "Deputy Secretary-General of TOMUN: 110+ delegates from 10 schools",
           "Chaired the Disarmament Committee and the General Assembly",
           "Set committees on Iran, Arctic militarisation and AI weapons, and wrote the crisis briefs",
           "Deputy President: I train around 30 new members each year",

@@ -6,7 +6,7 @@ const SITE = {
   last: "Sawhney",
   monogram: "ZNS",
   image: "images/zahan.jpg",
-  tagline: "Student, editor, debater and researcher",
+  tagline: "Student, editor, filmmaker and researcher",
   places: "New Delhi  ·  Tonbridge, Kent",
   email: "zahan.n.sawhey@gmail.com",
   intro:
@@ -156,38 +156,68 @@ const GROUPS = {
     kicker: "Research & Independent Projects",
     items: [
       {
-        id: "parsi-civic-elites",
-        title: "Independent Research Paper",
-        org: "Minority status and urban political influence",
+        id: "parsi-philanthropy",
+        title: "“Thy Name is Charity”",
+        org: "Nation building via Parsi philanthropy",
+        nav: "Research Paper",
+        navMeta: "Thy Name is Charity",
         period: "2026",
+        badge: "Submitted to The Concord Review",
         lead:
-          "How did Parsi civic elites convert 'minority status' into urban political influence in Bombay, now Mumbai?",
+          "I wrote a 5,000-word research paper on the historical sociology of Parsi philanthropy, and how it helped build a community and a nation. I am its sole author, and it has been submitted to The Concord Review.",
         body: [
-          "The Parsis have always been a numerical minority in Bombay, and yet they shaped the city's institutions in ways far beyond their numbers. My paper asks how that happened.",
-          "I am tracing the mechanisms through four channels: municipal bodies, philanthropy, the press and professional associations. My aim is to understand how a small community turned civic engagement into lasting influence over urban governance, and what that tells us about how power really works in cities.",
+          "My mother's family is Parsi, so this question is personal. The Parsis have always been a tiny minority in India, and yet their philanthropy shaped institutions far beyond their numbers. I wanted to understand why they gave in the way they did, and what that giving does to the community today.",
+          "I conducted nine interviews, including one with Dr Pheroza Godrej. What I found surprised me: the trusts that hold around 4,000 flats now effectively define who counts as Parsi, and that pool is shrinking faster than the 57,264 Parsis left in India. Charity that once built a community now helps decide its edges.",
+          "My work has been quoted at the World Zoroastrian Congress.",
         ],
         highlights: [
-          "Original research question I designed myself",
-          "Four lenses: municipal bodies, philanthropy, the press and professional associations",
-          "Focus on how a numerical minority shaped urban governance",
+          "Sole author of a 5,000-word paper",
+          "Submitted to The Concord Review",
+          "9 interviews, including Dr Pheroza Godrej",
+          "Quoted at the World Zoroastrian Congress",
         ],
       },
       {
-        id: "parsi-documentary",
-        title: "Documentary Film & Digital Repository",
-        org: "Oral history archive",
+        id: "bombay-samachar",
+        title: "The Bombay Samachar",
+        org: "Documentary film",
+        nav: "The Bombay Samachar",
+        navMeta: "Documentary, Director",
         period: "2026",
+        badge: "Best Documentary Short · 3x Category Winner",
         lead:
-          "I am developing a documentary film and a digital oral history archive to preserve the stories, traditions and cultural heritage of elderly Parsis in India.",
+          "I directed a multi-award-winning documentary that goes inside the Bombay Samachar, Asia's oldest newspaper, Parsi-run and printing since 1822.",
         body: [
-          "Some traditions survive only in the memories of the people who lived them. This project is my attempt to record those memories while there is still time.",
-          "I am conducting interviews and field research to document lesser-known Parsi customs before they are lost. The film will tell the story, and the digital repository will keep the original voices available for anyone who wants to learn from them in the future.",
+          "The film is an oral-history record of Asia's oldest newsroom. It tells the story of how a refugee faith survived in India by translating itself into Gujarati, and asks what that survival now costs a community that is slowly disappearing.",
+          "So far the film has won in three categories and received one honourable mention. It won Best Documentary Short at the Kodaikanal International Film Festival and Best Documentary at the Makizhmithran Festival, and was honoured at the Caravan and Global India International Film Festivals.",
+          "In March 2027 I have been invited to speak about the documentary in Cambridge by Professor Almut Hintz, President of the Ancient India and Iran Trust, which works with Cambridge academics and other experts on the region's history.",
         ],
         highlights: [
-          "Documentary film in development",
-          "Digital oral history repository",
-          "Interviews and field research with elderly Parsis",
-          "Focus on lesser-known customs at risk of being lost",
+          "Director of the film",
+          "Best Documentary Short, Kodaikanal International Film Festival",
+          "Best Documentary, Makizhmithran Festival",
+          "Honoured at the Caravan and Global India International Film Festivals",
+          "3x category winner and 1 honourable mention so far",
+          "Invited to speak at the Ancient India and Iran Trust, Cambridge, March 2027",
+        ],
+      },
+      {
+        id: "sachin-pilot-internship",
+        title: "Field Researcher & Constituent Liaison",
+        org: "Constituency office of Sachin Pilot, MLA for Tonk",
+        nav: "Constituency Internship",
+        navMeta: "Office of Sachin Pilot, MLA",
+        period: "Internship",
+        lead:
+          "I interned at the constituency office of Sachin Pilot, MLA for Tonk and General Secretary of the Indian National Congress, as a field researcher and constituent liaison.",
+        body: [
+          "I wanted to see how welfare actually reaches people, not just how it looks on paper. So I went to the villages and asked.",
+          "I conducted more than 80 field interviews across 12 villages in Tonk. In 60% of the welfare cases I looked at, middlemen were exploiting the people the schemes were meant to help. I wrote a policy brief proposing direct outreach, so that support could reach families without passing through those hands.",
+        ],
+        highlights: [
+          "80+ field interviews across 12 villages in Tonk",
+          "Found middleman exploitation in 60% of welfare cases",
+          "Authored a policy brief proposing direct outreach",
         ],
       },
     ],
@@ -199,23 +229,24 @@ const GROUPS = {
     items: [
       {
         id: "oriental-fc",
-        title: "Co-Founder, Oriental Football Club",
-        org: "Inter-school, India",
-        nav: "Oriental Football Club",
+        title: "Co-Founder, Oriental Cup",
+        org: "Inter-school football league, Delhi",
+        nav: "Oriental Cup",
         navMeta: "Co-Founder",
         period: "2022 to 2024",
         lead:
-          "I co-founded the first student-run inter-school football club in India, built to bridge the sports gap between public and private schools.",
+          "I co-founded and directed the Oriental Cup (first called the Triental Cup), Delhi's first student-run inter-school football league, built to bridge the sports gap between public and private schools.",
         body: [
-          "I noticed that students from public and private schools rarely got to play on the same pitch, even though they loved the same game. Oriental Football Club was our answer: a tournament where those lines did not matter.",
-          "To make it happen, I pitched the value of the tournament directly to school principals and convinced them to give students time off from class. I managed operations, logistics, finance and publicity. In the end we brought together more than 100 participants from 30 schools, and our work was covered nationally by Times Now and The Tribune India.",
+          "I noticed that students from public and private schools rarely got to play on the same pitch, even though they loved the same game. The Oriental Cup was our answer: a league where those lines did not matter, and where every capable player got to compete in a semi-professional environment.",
+          "To make it happen, I pitched the value of the league directly to school principals and convinced them to give students time off from class. I managed operations, logistics, finance and publicity. The league grew to 39 teams, we turned it into an annual multi-tier league, and three of our players were scouted for state teams. Our work was covered by ten national outlets, including The Tribune India.",
         ],
         highlights: [
-          "First student-run inter-school football club in India",
-          "100+ participants from 30 schools",
+          "Delhi's first student-run inter-school football league",
+          "39 teams in an annual multi-tier league",
+          "3 players scouted for state teams",
           "Pitched to principals to secure time off from class",
           "Ran operations, logistics, finance and publicity",
-          "National media coverage in Times Now and The Tribune India",
+          "Covered by 10 national outlets, including The Tribune India",
         ],
       },
       {
@@ -264,12 +295,15 @@ const GROUPS = {
         navMeta: "Core Team Member (Eco-warrior)",
         period: "2021 to 2025",
         lead:
-          "For four years I worked with One Step Greener on public environmental campaigns in India.",
+          "For four years I was part of the core team at One Step Greener, a Delhi waste NGO founded by winners of the International Children's Peace Prize.",
         body: [
-          "I contributed to campaigns including a fundraising drive for tree plantation, and my work was featured on the organisation's social media.",
-          "I took part in Mission RBG at ITC WOW, a waste management initiative, and helped run a door-to-door zero-waste awareness campaign that reached more than 100 households. I also wrote and published an article on e-waste in Enviro-Annotations, which was my first time writing for a public audience about an issue I cared about.",
+          "I was a key fundraiser and social advocate for the organisation. Together we made Sundar Nagar colony 90% waste-free over four years, and the work won the ITC Wellbeing Out of Waste Green Award under the Swachh Bharat Mission. I also contributed to a fundraising drive for tree plantation, and my work was featured on the organisation's social media.",
+          "I took part in Mission RBG at ITC WOW, a waste management initiative, and helped run door-to-door waste segregation drives that reached more than 100 households. I taught residents how to identify e-waste, and I also wrote and published an article on e-waste in Enviro-Annotations, which was my first time writing for a public audience about an issue I cared about.",
         ],
         highlights: [
+          "Made Sundar Nagar colony 90% waste-free in 4 years",
+          "ITC Wellbeing Out of Waste Green Award (Swachh Bharat Mission)",
+          "NGO founded by International Children's Peace Prize winners",
           "Fundraising drive for tree plantation",
           "Mission RBG at ITC WOW, a waste management initiative",
           "Door-to-door zero-waste campaign reaching 100+ households",
@@ -290,13 +324,13 @@ const GROUPS = {
         period: "2026",
         badge: "Finalist · £1,000 Scholarship",
         lead:
-          "I was selected as a finalist in a five-day challenge to solve real business problems using AI, and was awarded a £1,000 scholarship.",
+          "I was selected as a finalist from around 1,000 participants in a five-day challenge to solve real business problems using AI, and was awarded a £1,000 scholarship.",
         body: [
           "The challenge put me in front of real business problems and asked how AI could solve them. It was a very different kind of thinking from the classroom: practical, fast and grounded in what companies actually need.",
           "Over the five days I learnt how AI is deployed across established companies and startups, and how to turn a technical idea into a case that a business would back.",
         ],
         highlights: [
-          "Finalist in a five-day AI business challenge",
+          "Finalist from around 1,000 participants",
           "Awarded a £1,000 scholarship",
           "Learnt how AI is deployed across companies and startups",
         ],
@@ -306,17 +340,18 @@ const GROUPS = {
         title: "World Economics Cup",
         org: "Regional Qualifiers, UK",
         period: "2026",
-        badge: "Team Gold · Highest Distinction",
+        badge: "Team Gold · Highest Distinction · Continental Round",
         lead:
           "I was part of a six-person team that won gold at the UK regional qualifiers, and I was individually awarded the Highest Distinction with a score of 93 out of 100.",
         body: [
           "Economics is the subject I enjoy most, and the World Economics Cup was a chance to test it against some of the strongest students in the country.",
-          "Winning gold as a team was special, but scoring 93 out of 100 on my own paper gave me real confidence that I can hold my own at this level.",
+          "The competition focuses on applying economic theory to real-world problems. Winning gold as a team was special, but scoring 93 out of 100 on my own paper gave me real confidence that I can hold my own at this level. Our team has now qualified for the Continental Round.",
         ],
         highlights: [
           "Gold medal, team of six",
           "Individual score of 93/100",
           "Individually awarded the Highest Distinction",
+          "Team qualified for the Continental Round",
         ],
       },
       {
@@ -324,16 +359,16 @@ const GROUPS = {
         title: "International Economics Olympiad",
         org: "Business WinterChallenge",
         period: "2025 to 2026",
-        badge: "Honourable Mention · Top 15",
+        badge: "Honourable Mention · Global Top 10",
         lead:
-          "I achieved an Honourable Mention and a Top 15 finish nationally in the IEO Business WinterChallenge, and qualified for the second stage.",
+          "I achieved an Honourable Mention and a global Top 10 finish out of 2,157 entrants (top 0.4%) in the IEOx Business WinterChallenge, and qualified for the second stage.",
         body: [
-          "The WinterChallenge asks you to think like a business strategist under time pressure, and I loved the mix of analysis and judgement it demanded.",
+          "Over two weeks, my team built a business case and product to tackle a practical, real-world problem. The WinterChallenge asks you to think like a business strategist under time pressure, and I loved the mix of analysis and judgement it demanded.",
           "I have qualified for the second stage of the IEO and the competition is still ongoing.",
         ],
         highlights: [
           "Honourable Mention",
-          "Top 15 nationally",
+          "Global Top 10 out of 2,157 (top 0.4%)",
           "Qualified for the second stage, ongoing",
         ],
       },
@@ -371,6 +406,43 @@ const GROUPS = {
           "Produced with Oscar winner Vikram Jayanti",
           "Year-long campaign for the Tube and London buses",
           "Presented the campaign to the CEO of AmericanHolidays.com",
+        ],
+      },
+      {
+        id: "john-locke",
+        title: "John Locke Essay Competition",
+        org: "John Locke Institute",
+        period: "2026",
+        badge: "Shortlisted",
+        lead:
+          "My essay on democracy in crisis was shortlisted in the John Locke Essay Competition.",
+        body: [
+          "I wanted to write about why democracies that look stable can weaken from within, and what keeps them alive.",
+          "Being shortlisted gave me confidence that my writing can stand up alongside some of the strongest young essayists in the world. Final results are still to be announced.",
+        ],
+        highlights: [
+          "Essay on democracy in crisis",
+          "Shortlisted for awards, final results to come",
+        ],
+      },
+      {
+        id: "aspen-fellow",
+        title: "Junior Fellow, Ananta Aspen Institute",
+        org: "TSAALS Socratic Leadership Programme",
+        nav: "Ananta Aspen Institute",
+        navMeta: "Junior Fellow",
+        period: "Grade 10",
+        badge: "Junior Fellow",
+        lead:
+          "I was chosen for a two-week residential leadership programme run by the Ananta Aspen Institute, the Indian wing of the Aspen Institute.",
+        body: [
+          "The Ananta Aspen Institute is a Track II diplomacy nonprofit that works in partnership with India's Ministry of External Affairs to foster dialogue and global collaboration.",
+          "The TSAALS programme is built around Socratic dialogue. I led and joined peer discussions on the ethics and purpose of leadership, and my reflections from those two weeks later shaped how I approached my documentary.",
+        ],
+        highlights: [
+          "Selected for a 2-week residential programme",
+          "Led and joined Socratic dialogues on the ethics of leadership",
+          "Reflections shaped the positioning of my documentary",
         ],
       },
       { id: "honours", title: "Honours", org: "Academic honours & awards", page: "honours" },
@@ -411,9 +483,12 @@ const EDUCATION = [
 const HONOURS = [
   ["ICE Distinction", "International Certificate of Education, for outstanding achievement across multiple IGCSE subjects"],
   ["Subject Excellence Award", "IGCSE Coordinated Sciences (Double Award), Step-by-Step School"],
-  ["World Economics Cup", "Individual Highest Distinction (93/100) and team Gold Medal, UK Regional Qualifiers"],
-  ["International Economics Olympiad", "Honourable Mention and Top 15, Business WinterChallenge; Second Stage qualifier"],
-  ["AI Futures Challenge", "Finalist and £1,000 Scholarship, Northeastern University London"],
+  ["World Economics Cup", "Individual Highest Distinction (93/100) and team Gold Medal, UK Regional Qualifiers; Continental Round qualifier"],
+  ["International Economics Olympiad", "Honourable Mention and Global Top 10 of 2,157 (top 0.4%), IEOx WinterChallenge; Second Stage qualifier"],
+  ["Best Documentary Short", "Kodaikanal International Film Festival, for The Bombay Samachar"],
+  ["Best Documentary", "Makizhmithran Festival; also honoured at the Caravan and Global India International Film Festivals"],
+  ["AI Futures Challenge", "Finalist from around 1,000 participants and £1,000 Scholarship, Northeastern University London"],
+  ["John Locke Essay Competition", "Shortlisted, essay on democracy in crisis"],
   ["Tonbridge Film Society Tie", "School honour for an ad campaign produced with Oscar winner Vikram Jayanti"],
   ["House Colours", "Most Creative Script (1 of 12 houses), annual inter-house drama, Tonbridge School"],
   ["Certificate of Recognition", "Blue Ocean Strategy Challenge"],
@@ -430,7 +505,7 @@ const BEYOND = [
     title: "Karate",
     period: "2017 to Present",
     text:
-      "I hold a Black Belt (Dan 1) in Karate. Years of training have given me patience, focus and a lot of respect for slow, steady progress.",
+      "I hold a 2nd Degree (Nidan) Black Belt in Shotokan Karate, awarded by the international SSKI organisation. Years of training have given me patience, confidence and a lot of respect for slow, steady progress.",
   },
   {
     title: "Tabla",
@@ -450,9 +525,9 @@ const ABOUT = {
     "I am Zahan Nikhil Sawhney, an Upper Sixth student at Tonbridge School in Kent. I grew up in New Delhi, and I am curious about how economics and people shape one another.",
   body: [
     "I spent twelve years at Step-by-Step School in Noida before moving to the UK for my A Levels. Today I study Economics, Spanish and Mathematics, and I have completed an Extended Project Qualification alongside them.",
-    "Much of what I do comes back to one question: how do people and communities gain a voice? It is why I co-founded a football club that brought public and private school students onto the same pitch, why I helped start Model United Nations at Tonbridge, and why my research looks at how the Parsi community shaped the governance of Bombay.",
+    "Much of what I do comes back to one question: how do people and communities gain a voice? It is why I co-founded a football club that brought public and private school students onto the same pitch, why I helped start Model United Nations at Tonbridge, and why my research and my documentary on the Bombay Samachar look at how the Parsi community, my mother's community, has shaped and sustained itself in India.",
     "I like to lead from the inside. Within my first year at Tonbridge I became House Captain and the first new boy to be named Editor-in-Chief of The Bull & The Boar, our social science magazine. I have learnt that the best leaders make other people feel seen, and that is what I try to do.",
-    "Away from my desk you will find me fencing, practising karate (I hold a black belt), playing tabla or, when I get the chance, scuba diving.",
+    "Away from my desk you will find me fencing, practising karate (I hold a second-degree black belt), playing tabla or, when I get the chance, scuba diving.",
   ],
   interests: ["Economics", "Urban history", "Debate & MUN", "Writing & editing", "Community building"],
 };

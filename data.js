@@ -17,7 +17,7 @@ const SITE = {
     ["Studying", "Economics, Spanish and Mathematics (EPQ completed)"],
     ["Currently", "House Captain and Editor-in-Chief, The Bull & The Boar"],
   ],
-  facts: ["House Captain", "Editor-in-Chief", "MUN Co-Founder"],
+  facts: ["House Captain", "Editor-in-Chief", "MUN Co-Founder", "President, South Asian Society"],
 };
 
 /* Pages that hang off a dropdown. Each item gets its own page. */
@@ -32,16 +32,18 @@ const GROUPS = {
         org: "Tonbridge School",
         period: "2026 to Present",
         lead:
-          "Within eight months of arriving at Tonbridge, I was appointed House Captain. I am one of the youngest students to have held the role.",
+          "Within nine months of arriving at Tonbridge, I was appointed by my Housemaster as one of 12 House Captains, chosen from a cohort of around 160.",
         body: [
           "Being trusted with the house so early meant I had to learn its rhythms quickly: who the quiet talents were, which competitions mattered most to people, and how to bring a group of very different boys together behind one name.",
-          "Today I formalise every house event team for our inter-house competitions, so that each one has the right people in it and nobody is left out. I am also responsible for recognising individual contributions and awarding house accolades. I take that part seriously, because I have learnt that people give their best when they know their effort is noticed.",
+          "Today I look after a house of 65 students. I coordinate more than 20 inter-house competitions a year, forming every event team so that each one has the right people in it and nobody is left out. I also set up a cross-year peer mentorship scheme, so that younger boys always have someone older to turn to, and this year the house reached a record 95% engagement in house events.",
+          "I am also responsible for recognising individual contributions and awarding house accolades. I take that part seriously, because I have learnt that people give their best when they know their effort is noticed.",
         ],
         highlights: [
-          "Appointed within eight months of joining Tonbridge",
-          "One of the youngest students to hold the role",
-          "I form and formalise all house event teams",
-          "I recognise contributions and award house accolades across inter-house competitions",
+          "1 of 12 House Captains, chosen from a cohort of around 160 within nine months",
+          "Lead a house community of 65 students",
+          "Coordinate 20+ inter-house competitions a year",
+          "Set up cross-year peer mentorship",
+          "Record 95% engagement in house events",
         ],
       },
       {
@@ -50,35 +52,40 @@ const GROUPS = {
         org: "The Bull & The Boar, Tonbridge School",
         period: "2026 to Present",
         lead:
-          "I am the first new boy at Tonbridge to be appointed Editor-in-Chief of The Bull & The Boar, the school's social science magazine.",
+          "I am the first new boy at Tonbridge to be appointed Editor-in-Chief of The Bull & The Boar, the school's annual social sciences magazine. I was hand-picked by the Head of Social Sciences as the sole appointee from a field of fifty.",
         body: [
           "The magazine covers economics, politics and social affairs, the three subjects I keep coming back to in everything I read and write. Leading it lets me turn that curiosity into something other students can pick up and argue with.",
-          "As editor I set the editorial direction and content strategy, decide what each issue should explore, and see every edition through to publication. It has taught me how to shape a clear voice out of many writers, and how to hold a high standard while keeping people excited to contribute.",
+          "As editor I set the editorial direction and content strategy, oversee the design and editing of the issue, and see it through to publication. I also commissioned school-wide polls so that our 1,500-word essays are grounded in real data, not just opinion. It has taught me how to shape a clear voice out of many writers, and how to hold a high standard while keeping people excited to contribute.",
         ],
         highlights: [
           "First new boy at Tonbridge to hold the position",
-          "I own editorial direction and content strategy",
+          "Sole appointee from a field of fifty, chosen by the Head of Social Sciences",
+          "I own editorial direction, design and editing",
+          "Commissioned school-wide polls to ground essays in data",
           "I oversee publication from commissioning to print",
           "Coverage spans economics, politics and social affairs",
         ],
       },
       {
         id: "model-un",
-        title: "Co-Founder & Deputy Secretary-General",
+        title: "Co-Founder, Deputy Secretary-General & Deputy President",
         org: "Model United Nations, Tonbridge School",
         nav: "Model United Nations",
-        navMeta: "Co-Founder & Deputy Secretary-General",
+        navMeta: "Co-Founder, Deputy Secretary-General & Deputy President",
         period: "2025 to Present",
         lead:
-          "I co-founded the inaugural edition of Tonbridge School's Model United Nations society and served as its Deputy Secretary-General.",
+          "I co-founded Tonbridge School's Model United Nations society, served as Deputy Secretary-General of TOMUN, the school's first-ever inter-school MUN conference, and am now Deputy President of the society.",
         body: [
           "MUN has been part of my life since Grade 6 at Step-by-Step School in Noida, where I first learnt to research a country's position, defend it under pressure and find common ground with people who disagreed with me. When I arrived at Tonbridge, I wanted to build that same space for others.",
-          "At our inaugural conference I chaired both the Disarmament Committee and the General Assembly. Chairing taught me a different kind of discipline from debating: keeping the room fair, keeping it moving and making sure every delegate had a real chance to be heard.",
+          "Our inaugural conference brought together more than 110 delegates from over 10 schools. We set four committees on Iran, Arctic militarisation and AI weapons, and I wrote the crisis briefs. I chaired both the Disarmament Committee and the General Assembly. Chairing taught me a different kind of discipline from debating: keeping the room fair, keeping it moving and making sure every delegate had a real chance to be heard.",
+          "As Deputy President, I am responsible for training every new member of the society, usually around 30 a year. As one of the most experienced delegates in the society, I try to give them the same grounding in research and debate that I was lucky enough to get.",
         ],
         highlights: [
           "Co-founded Tonbridge School's first MUN society",
-          "Served as Deputy Secretary-General",
-          "Chaired the Disarmament Committee and the General Assembly at the inaugural conference",
+          "Deputy Secretary-General of TOMUN: 110+ delegates from 10+ schools",
+          "Chaired the Disarmament Committee and the General Assembly",
+          "Set committees on Iran, Arctic militarisation and AI weapons, and wrote the crisis briefs",
+          "Deputy President: I train around 30 new members each year",
           "Active MUN debater and delegate since Grade 6",
         ],
       },
@@ -86,17 +93,59 @@ const GROUPS = {
         id: "house-drama",
         title: "Head of House Drama",
         org: "Tonbridge School",
-        period: "2025 to 2026",
+        period: "2025 to Present",
         lead:
-          "I directed a student-led inter-school production that went on to win an award.",
+          "I led my house to its first inter-house drama award in years, with an original script that won Most Creative Script out of 12 houses.",
         body: [
           "Directing meant juggling everything at once. I managed the rehearsal schedule, refined the script and shaped the performances, often all in the same evening.",
           "What I am proudest of is the confidence it built in the cast. Helping other students grow comfortable on stage taught me as much about leadership as any title has, and I learnt how to coordinate a collaborative creative project under real pressure.",
         ],
         highlights: [
-          "Directed an award-winning, student-led inter-school production",
-          "Managed scheduling, script refinement and performance direction",
+          "First inter-house drama award for my house in years",
+          "Most Creative Script, 1 of 12 entries from 12 houses",
+          "Won House Colours for the annual drama",
+          "Managed scheduling, script writing and performance direction",
           "Built stage confidence in first-time performers",
+        ],
+      },
+      {
+        id: "south-asian-society",
+        title: "President, South Asian Society",
+        org: "Tonbridge School",
+        nav: "South Asian Society",
+        navMeta: "President",
+        period: "2026 to Present",
+        lead:
+          "I lead Tonbridge's South Asian Society, a community of around 50 students.",
+        body: [
+          "Coming to Tonbridge from New Delhi, the South Asian Society was one of the first places that felt like home. Now I run it, and I want it to do the same for everyone who walks in.",
+          "I manage all of the society's events, from cultural visits to food and culture evenings, and I try to make sure they are open to anyone curious about South Asia, not only students from the region.",
+        ],
+        highlights: [
+          "President of a society of around 50 students",
+          "Manage all society events, including cultural visits",
+          "Organise food and culture programming open to the whole school",
+        ],
+      },
+      {
+        id: "fencing-captain",
+        title: "Captain of Sabre, Tonbridge Fencing",
+        org: "Tonbridge School",
+        nav: "Captain of Sabre",
+        navMeta: "Tonbridge Fencing",
+        period: "2026 to Present",
+        lead:
+          "I am one of three fencing captains at Tonbridge, leading the sabre squad and representing the school in every fixture.",
+        body: [
+          "Fencing is a fast, tactical sport, and captaining it means thinking about the team as much as my own bouts. I select the teams, manage our fixtures and referee matches when needed.",
+          "I also teach the sabre to the lower years, usually around 20 students. Seeing a beginner land their first clean hit is one of the most satisfying parts of the role. This season we have won all three of our fixtures.",
+        ],
+        highlights: [
+          "1 of 3 fencing captains at Tonbridge",
+          "Represent the school in all fixtures",
+          "Select teams, manage fixtures and referee",
+          "Train around 20 lower-year students in sabre",
+          "Won 3 out of 3 fixtures this season",
         ],
       },
     ],
@@ -171,20 +220,24 @@ const GROUPS = {
       },
       {
         id: "community-council",
-        title: "Member, Tonbridge Community Council",
+        title: "Tonbridge Community Council",
         org: "Tonbridge School",
         nav: "Tonbridge Community Council",
-        navMeta: "Member",
+        navMeta: "Member & Initiative Leader",
         period: "2025 to Present",
         lead:
-          "Through the Community Council I try to make sure Tonbridge gives back to the town around it.",
+          "I was one of 3 students admitted from 60 applicants to the Community Council's outreach programme, which works to make sure Tonbridge gives back to the town around it.",
         body: [
-          "I volunteered as a host at the annual Tonbridge community concert for elderly residents, helping to welcome guests and make sure the evening ran smoothly.",
-          "I also organised a fundraising donut drive for ovarian cancer research. It was a simple idea, but it showed me how easily a community will show up for a good cause when someone takes the first step.",
+          "For two years I have helped run the annual Tonbridge School Community Concert for residents of three elder care homes in Tonbridge. More than 100 people attend, and around 40 residents join us from the care homes. I was selected as a host, which means looking after our elderly guests from the moment they arrive, and I coordinate donors, volunteers and logistics across eight events.",
+          "Spending time with the residents has been one of the most rewarding parts of my time at Tonbridge. Many of them have lived in the town all their lives, and listening to their stories reminds me that community is built one conversation at a time.",
+          "I also lead the school's community fundraising drive, the doughnut drive for cancer research, which has raised £10,000. It is a simple idea, but it shows how readily a community will show up for a good cause when someone takes the first step.",
         ],
         highlights: [
-          "Host at the annual community concert for elderly residents",
-          "Organised a donut drive for ovarian cancer research",
+          "1 of 3 admitted from 60 applicants",
+          "Co-run the annual concert for 3 elder care homes, supporting around 40 residents",
+          "100+ attendees; coordinated donors, volunteers and logistics for 8 events",
+          "Selected as host, caring for elderly guests from the care homes",
+          "Lead the community fundraising drive, which has raised £10,000",
         ],
       },
       {
@@ -301,6 +354,25 @@ const GROUPS = {
           "Participant in the IEA Budget Challenge",
         ],
       },
+      {
+        id: "film-society-tie",
+        title: "Tonbridge Film Society Tie",
+        org: "Ad campaign with Oscar winner Vikram Jayanti",
+        period: "2026",
+        badge: "School Honour",
+        lead:
+          "I was awarded the Tonbridge Film Society Tie, a school honour, for an advertising campaign I produced with Oscar-winning filmmaker Vikram Jayanti.",
+        body: [
+          "The campaign was made for American Holidays, a travel marketing company, and is set to run on the London Underground and on buses over a year-long engagement.",
+          "Working alongside an Oscar winner taught me how much care goes into every frame of a short piece of film. At the end of the project I presented the campaign to the CEO of AmericanHolidays.com.",
+        ],
+        highlights: [
+          "Awarded the Tonbridge Film Society Tie (school honour)",
+          "Produced with Oscar winner Vikram Jayanti",
+          "Year-long campaign for the Tube and London buses",
+          "Presented the campaign to the CEO of AmericanHolidays.com",
+        ],
+      },
       { id: "honours", title: "Honours", org: "Academic honours & awards", page: "honours" },
     ],
   },
@@ -342,6 +414,8 @@ const HONOURS = [
   ["World Economics Cup", "Individual Highest Distinction (93/100) and team Gold Medal, UK Regional Qualifiers"],
   ["International Economics Olympiad", "Honourable Mention and Top 15, Business WinterChallenge; Second Stage qualifier"],
   ["AI Futures Challenge", "Finalist and £1,000 Scholarship, Northeastern University London"],
+  ["Tonbridge Film Society Tie", "School honour for an ad campaign produced with Oscar winner Vikram Jayanti"],
+  ["House Colours", "Most Creative Script (1 of 12 houses), annual inter-house drama, Tonbridge School"],
   ["Certificate of Recognition", "Blue Ocean Strategy Challenge"],
 ];
 
@@ -350,7 +424,7 @@ const BEYOND = [
     title: "Fencing",
     period: "2025 to Present",
     text:
-      "I fence competitively at the inter-school level as part of a team of nine, and we have already begun winning accolades.",
+      "I fence sabre for Tonbridge and am one of the school's three fencing captains. This season we have won all three of our fixtures.",
   },
   {
     title: "Karate",
@@ -368,12 +442,6 @@ const BEYOND = [
     title: "Scuba Diving",
     period: "Certified",
     text: "I am a certified scuba diver. There is nothing quite like the quiet underwater.",
-  },
-  {
-    title: "South Asian Society",
-    period: "Tonbridge School",
-    text:
-      "I am an active member of the South Asian Society at Tonbridge, helping with cultural events, food and culture programming, and exposure walks.",
   },
 ];
 

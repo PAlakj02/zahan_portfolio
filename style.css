@@ -521,30 +521,19 @@ body.menu-open .menu-toggle span:nth-child(3) { transform: translateY(-7px) rota
 /* Beyond */
 .grid-cards {
   display: grid;
-  grid-template-columns: repeat(6, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 24px;
 }
 .card {
-  grid-column: span 2;
   display: flex;
   flex-direction: column;
   background: var(--panel);
   border: 1px solid var(--line);
   padding: 32px 28px 36px;
 }
-.card:nth-child(4),
-.card:nth-child(5) { grid-column: span 3; }
 .card h3 { font-family: var(--display); font-size: 22px; margin: 6px 0 10px; }
-@media (max-width: 900px) {
-  .grid-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .card,
-  .card:nth-child(4) { grid-column: span 1; }
-  .card:nth-child(5) { grid-column: span 2; }
-}
 @media (max-width: 560px) {
   .grid-cards { grid-template-columns: 1fr; gap: 16px; }
-  .card,
-  .card:nth-child(5) { grid-column: auto; }
 }
 .card p:last-child { margin: 0; color: var(--ink-2); }
 

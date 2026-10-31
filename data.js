@@ -10,11 +10,11 @@ const SITE = {
   places: "New Delhi  ·  Tonbridge, Kent",
   email: "zahan.n.sawhey@gmail.com",
   intro:
-    "I am a Lower Sixth student at Tonbridge School in Kent, originally from New Delhi. I care about how economics, politics and people shape one another, and I like to lead, write and argue my way into understanding them.",
+    "I am an Upper Sixth student at Tonbridge School in Kent, originally from New Delhi. I care about how economics and people shape one another, and I like to lead, write and argue my way into understanding them.",
   details: [
     ["Based in", "New Delhi, India and Kent, UK"],
-    ["School", "Tonbridge School, Lower Sixth"],
-    ["Studying", "Economics, Politics, Spanish, Mathematics and an EPQ"],
+    ["School", "Tonbridge School, Upper Sixth"],
+    ["Studying", "Economics, Spanish and Mathematics (EPQ completed)"],
     ["Currently", "House Captain and Editor-in-Chief, The Bull & The Boar"],
   ],
   facts: ["House Captain", "Editor-in-Chief", "MUN Co-Founder"],
@@ -311,10 +311,10 @@ const EDUCATION = [
     school: "Tonbridge School",
     place: "Kent, UK",
     period: "2025 to Present",
-    stage: "Lower Sixth Form (A Levels)",
+    stage: "Upper Sixth Form (A Levels)",
     text:
-      "I moved from New Delhi to Tonbridge for my A Levels. I am studying Economics, Politics, Spanish and Mathematics, and I am also working on an Extended Project Qualification.",
-    subjects: ["Economics", "Politics", "Spanish", "Mathematics", "Extended Project Qualification"],
+      "I moved from New Delhi to Tonbridge for my A Levels. I am studying Economics, Spanish and Mathematics, and I have completed an Extended Project Qualification.",
+    subjects: ["Economics", "Spanish", "Mathematics", "Extended Project Qualification (completed)"],
   },
   {
     school: "Step-by-Step School",
@@ -379,12 +379,12 @@ const BEYOND = [
 
 const ABOUT = {
   lead:
-    "I am Zahan Nikhil Sawhney, a Lower Sixth student at Tonbridge School in Kent. I grew up in New Delhi, and I am curious about how economics, politics and people shape one another.",
+    "I am Zahan Nikhil Sawhney, an Upper Sixth student at Tonbridge School in Kent. I grew up in New Delhi, and I am curious about how economics and people shape one another.",
   body: [
-    "I spent twelve years at Step-by-Step School in Noida before moving to the UK for my A Levels. Today I study Economics, Politics, Spanish and Mathematics, and I am working on an Extended Project Qualification alongside them.",
+    "I spent twelve years at Step-by-Step School in Noida before moving to the UK for my A Levels. Today I study Economics, Spanish and Mathematics, and I have completed an Extended Project Qualification alongside them.",
     "Much of what I do comes back to one question: how do people and communities gain a voice? It is why I co-founded a football club that brought public and private school students onto the same pitch, why I helped start Model United Nations at Tonbridge, and why my research looks at how the Parsi community shaped the governance of Bombay.",
     "I like to lead from the inside. Within my first year at Tonbridge I became House Captain and the first new boy to be named Editor-in-Chief of The Bull & The Boar, our social science magazine. I have learnt that the best leaders make other people feel seen, and that is what I try to do.",
     "Away from my desk you will find me fencing, practising karate (I hold a black belt), playing tabla or, when I get the chance, scuba diving.",
   ],
-  interests: ["Economics", "Politics", "Urban history", "Debate & MUN", "Writing & editing", "Community building"],
+  interests: ["Economics", "Urban history", "Debate & MUN", "Writing & editing", "Community building"],
 };

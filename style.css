@@ -301,8 +301,9 @@ body.menu-open .menu-toggle span:nth-child(3) { transform: translateY(-7px) rota
   width: 100%;
   max-width: 1240px;
   margin: 0 auto;
+  --photo-w: calc(var(--photo-h) * 3 / 4);
   display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
+  grid-template-columns: minmax(0, 1fr) var(--photo-w);
   align-items: center;
   gap: clamp(32px, 6vw, 96px);
   padding: 0 var(--gutter);
@@ -320,7 +321,7 @@ body.menu-open .menu-toggle span:nth-child(3) { transform: translateY(-7px) rota
   letter-spacing: 0.01em;
 }
 .hn {
-  font-size: clamp(44px, 7.4vw, 124px);
+  font-size: clamp(40px, 5.8vw, 104px);
   white-space: nowrap;
   animation: rise 0.9s cubic-bezier(0.2, 0.7, 0.2, 1) both;
 }
@@ -336,7 +337,8 @@ body.menu-open .menu-toggle span:nth-child(3) { transform: translateY(-7px) rota
 .hero-photo {
   margin: 0;
   height: var(--photo-h);
-  aspect-ratio: 3 / 4;
+  width: var(--photo-w);
+  justify-self: end;
   animation: fade 1.1s ease both;
 }
 .hero-photo img {
@@ -368,13 +370,14 @@ body.menu-open .menu-toggle span:nth-child(3) { transform: translateY(-7px) rota
 @media (max-width: 760px) {
   .hero-stage {
     --photo-h: min(44dvh, 90vw);
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
     grid-template-rows: auto auto;
     align-content: center;
     justify-items: center;
     gap: 20px;
     text-align: center;
   }
+  .hero-photo { justify-self: center; }
   .hero-kicker { margin-bottom: 6px; }
   .hn { font-size: min(14vw, 8dvh); }
   .hn-mid { font-size: min(6vw, 3.4dvh); margin: 2px 0; }
@@ -383,7 +386,7 @@ body.menu-open .menu-toggle span:nth-child(3) { transform: translateY(-7px) rota
 }
 
 @media (max-height: 560px) and (min-width: 561px) {
-  .hero-stage { --photo-h: 70dvh; grid-template-columns: minmax(0, 1fr) auto; text-align: left; justify-items: stretch; }
+  .hero-stage { --photo-h: 70dvh; grid-template-columns: minmax(0, 1fr) var(--photo-w); text-align: left; justify-items: stretch; }
   .hn { font-size: clamp(32px, 6vw, 72px); }
   .hero-foot { flex-direction: row; padding: 10px var(--gutter); }
 }

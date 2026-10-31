@@ -181,7 +181,7 @@
             <dl>
               <div><dt>Role</dt><dd>${esc(item.title)}</dd></div>
               <div><dt>Where</dt><dd>${esc(item.org)}</dd></div>
-              <div><dt>When</dt><dd>${esc(item.period)}</dd></div>
+              ${item.period ? `<div><dt>When</dt><dd>${esc(item.period)}</dd></div>` : ""}
               ${item.badge ? `<div><dt>Result</dt><dd>${esc(item.badge)}</dd></div>` : ""}
             </dl>
           </aside>

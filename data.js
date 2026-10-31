@@ -190,7 +190,7 @@ const GROUPS = {
         body: [
           "The film is an oral-history record of Asia's oldest newsroom. It tells the story of how a refugee faith survived in India by translating itself into Gujarati, and asks what that survival now costs a community that is slowly disappearing.",
           "So far the film has won in three categories and received one honourable mention. It won Best Documentary Short at the Kodaikanal International Film Festival and Best Documentary at the Makizhmithran Festival, and was honoured at the Caravan and Global India International Film Festivals.",
-          "In March 2027 I have been invited to speak about the documentary in Cambridge by Professor Almut Hintz, President of the Ancient India and Iran Trust, which works with Cambridge academics and other experts on the region's history.",
+          "I have been invited to speak about the documentary in Cambridge by Professor Almut Hintz, President of the Ancient India and Iran Trust, which works with Cambridge academics and other experts on the region's history.",
         ],
         highlights: [
           "Director of the film",
@@ -198,7 +198,7 @@ const GROUPS = {
           "Best Documentary, Makizhmithran Festival",
           "Honoured at the Caravan and Global India International Film Festivals",
           "3x category winner and 1 honourable mention so far",
-          "Invited to speak at the Ancient India and Iran Trust, Cambridge, March 2027",
+          "Invited to speak at the Ancient India and Iran Trust, Cambridge",
         ],
       },
       {
@@ -207,7 +207,6 @@ const GROUPS = {
         org: "Constituency office of Sachin Pilot, MLA for Tonk",
         nav: "Constituency Internship",
         navMeta: "Office of Sachin Pilot, MLA",
-        period: "Internship",
         lead:
           "I interned at the constituency office of Sachin Pilot, MLA for Tonk and General Secretary of the Indian National Congress, as a field researcher and constituent liaison.",
         body: [
@@ -364,12 +363,12 @@ const GROUPS = {
           "I achieved an Honourable Mention and a global Top 10 finish out of 2,157 entrants (top 0.4%) in the IEOx Business WinterChallenge, and qualified for the second stage.",
         body: [
           "Over two weeks, my team built a business case and product to tackle a practical, real-world problem. The WinterChallenge asks you to think like a business strategist under time pressure, and I loved the mix of analysis and judgement it demanded.",
-          "I have qualified for the second stage of the IEO and the competition is still ongoing.",
+          "My result also earned me a place in the second stage of the IEO.",
         ],
         highlights: [
           "Honourable Mention",
           "Global Top 10 out of 2,157 (top 0.4%)",
-          "Qualified for the second stage, ongoing",
+          "Qualified for the second stage",
         ],
       },
       {
@@ -418,11 +417,11 @@ const GROUPS = {
           "My essay on democracy in crisis was shortlisted in the John Locke Essay Competition.",
         body: [
           "I wanted to write about why democracies that look stable can weaken from within, and what keeps them alive.",
-          "Being shortlisted gave me confidence that my writing can stand up alongside some of the strongest young essayists in the world. Final results are still to be announced.",
+          "Being shortlisted gave me confidence that my writing can stand up alongside some of the strongest young essayists in the world.",
         ],
         highlights: [
           "Essay on democracy in crisis",
-          "Shortlisted for awards, final results to come",
+          "Shortlisted in the John Locke Essay Competition",
         ],
       },
       {
@@ -431,7 +430,6 @@ const GROUPS = {
         org: "TSAALS Socratic Leadership Programme",
         nav: "Ananta Aspen Institute",
         navMeta: "Junior Fellow",
-        period: "Grade 10",
         badge: "Junior Fellow",
         lead:
           "I was chosen for a two-week residential leadership programme run by the Ananta Aspen Institute, the Indian wing of the Aspen Institute.",
